@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+    <script src="script.js"></script>
+</head>
+<body>
+        <div class="Calculator">
+            <div class="display">
+                <input type="text" id='display' name="display" value="0" readonly>
+            </div>
+            <div class="button">
+                <div class="AC"><a href="#" onclick="clearDisplay()">AC</a></div>
+                <div class="DE"><a href="#" onclick="deleteLast()">DE</a></div>
+                <div class="point"><a href="#" onclick="appendToDisplay('.')">.</a></div>
+                <div class="div"><a href="#" onclick="appendToDisplay('/')">/</a></div>
+                <div class="seven"><a href="#" onclick="appendToDisplay('7')">7</a></div>
+                <div class="eight"><a href="#" onclick="appendToDisplay('8')">8</a></div>
+                <div class="nine"><a href="#" onclick="appendToDisplay('9')">9</a></div>
+                <div class="concat"><a href="#" onclick="appendToDisplay('*')">*</a></div>
+                <div class="four"><a href="#" onclick="appendToDisplay('4')">4</a></div>
+                <div class="five"><a href="#" onclick="appendToDisplay('5')">5</a></div>
+                <div class="six"><a href="#" onclick="appendToDisplay('6')">6</a></div>
+                <div class="mines"><a href="#" onclick="appendToDisplay('-')">-</a></div>
+                <div class="one"><a href="#" onclick="appendToDisplay('1')">1</a></div>
+                <div class="two"><a href="#" onclick="appendToDisplay('2')">2</a></div>
+                <div class="three"><a href="#" onclick="appendToDisplay('3')">3</a></div>
+                <div class="plus"><a href="#" onclick="appendToDisplay('+')">+</a></div>
+                <div class="dbl-zero"><a href="#" onclick="appendToDisplay('00')">00</a></div>
+                <div class="zero"><a href="#" onclick="appendToDisplay('0')">0</a></div>
+                <div class="equal"><a href="#" onclick="calculateResult()">=</a></div>
+            </div>
+            </div>
+        </div>
+</body>
+</html>

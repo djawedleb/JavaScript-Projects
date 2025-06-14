@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+body{
+    background-color: rgb(14, 32, 32);
+}
+.password{
+    display: grid;
+    justify-content: center;
+    margin: 20rem;
+}
+.password #eye{
+    position: relative;
+    width: 1.5rem;
+    transform: translateY(2.6rem) translateX(11.3rem);
+    color: gray;
+}
+.password input{
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.password #msg{
+    font-size: 0.8rem;
+    margin-top: 6px;
+}

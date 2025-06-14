@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+body{
+    background-color:rgb(23, 2, 80);
+}
+.container .text{
+    display: grid;
+    justify-content: left;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    margin: 2rem;
+}
+.container .text .first{
+    color: white;
+}
+.container .text .second{
+    color: green;
+    text-decoration: underline;
+}
+.container .inpute {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 7rem;
+    position: relative;
+}
+.container .inpute a svg{
+    position: absolute;
+    height: 2.5rem;
+    transform: translateY(10%) translateX(21.5rem);
+}
+.container .inpute input{
+    padding: 1rem;
+    padding-right: 12rem;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+.container .button a{
+    margin-left: 7rem ;
+    color: white;
+    background: green;
+    padding: 1rem;
+    border-radius: 7px;
+}
+.container .button a:hover{
+    background:rgb(0, 59, 0);
+}

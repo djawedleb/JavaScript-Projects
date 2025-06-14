@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(175, 12, 197);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+.container{
+    background-color: black;
+    padding: 20px 24px;
+    border-radius: 10px;
+
+}
+#time{
+    font-size: 50px;
+    font-weight: 600;
+}
+#bs{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: aliceblue;
+    background-color: aqua;
+    padding: 12px 24px;
+}
